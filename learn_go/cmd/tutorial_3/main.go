@@ -8,7 +8,7 @@ import (
 func main() {
 	printMe("Rakib")
 
-	var result, remainder, err = intDiv(24, 3)
+	var result, remainder, err = intDiv(24, 0)
 
 	if err != nil {
 		fmt.Printf(err.Error())
@@ -16,6 +16,15 @@ func main() {
 		fmt.Printf("The result of division is %v\n", result)
 	} else {
 		fmt.Printf("Result is %v with remainder is %v\n", result, remainder)
+	}
+
+	switch {
+		case err != nil:
+			fmt.Printf(err.Error())
+		case remainder == 0:
+			fmt.Printf("Result of division is %v\n", result)
+		default:
+			fmt.Printf("Result of division is %v and remainder is %v", result, remainder)
 	}
 }
 
@@ -27,7 +36,7 @@ func intDiv(numerator int, denominator int) (int, int, error) {
 	var err error
 
 	if denominator == 0 {
-		err = errors.New("Can not devide by zero(0)")
+		err = errors.New("Can not devide by zero(0)\n")
 		return 0, 0, err
 	}
 
