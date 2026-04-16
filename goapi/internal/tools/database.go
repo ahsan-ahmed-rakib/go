@@ -1,7 +1,7 @@
 package tools
 
 import (
-	log "github.com/sirupsen/logurs"
+	log "github.com/sirupsen/logrus"
 )
 
 // Database collections

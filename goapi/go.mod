@@ -1,4 +1,4 @@
-module github.com/ahsan-ahmed-rakib/goapi
+module github.com/avukadin/goapi
 
 go 1.26.2
 
