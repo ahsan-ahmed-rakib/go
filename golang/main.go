@@ -7,8 +7,9 @@ func main() {
 	var taskItems = []string {"Watch go tutorial", "Do go code after see video", "Build API with go"}
 	println("This is main function")
 
-	// printTexts(taskItems)
-	addTask(taskItems, "Learn GO function")
+	taskItems = addTask(taskItems, "Learn GO function")
+	taskItems = addTask(taskItems, "Practicing GO function")
+	printTexts(taskItems)
 }
 
 func printTexts(taskItems []string) {
@@ -18,7 +19,7 @@ func printTexts(taskItems []string) {
 	}
 }
 
-func addTask(taskItems []string, newTask string) {
+func addTask(taskItems []string, newTask string) []string {
 	var updatedTasks = append(taskItems, newTask)
-	printTexts(updatedTasks)
+	return updatedTasks
 }
