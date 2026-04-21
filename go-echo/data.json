@@ -1,0 +1,62 @@
+[
+  {
+    "UserId": 1,
+    "Id": 1,
+    "Title": "First Post",
+    "Body": "This is the body of the first post."
+  },
+  {
+    "UserId": 1,
+    "Id": 2,
+    "Title": "Second Post",
+    "Body": "This is the body of the second post."
+  },
+  {
+    "UserId": 2,
+    "Id": 3,
+    "Title": "Learning Go",
+    "Body": "Go is a statically typed language."
+  },
+  {
+    "UserId": 2,
+    "Id": 4,
+    "Title": "Concurrency",
+    "Body": "Goroutines make concurrency easy."
+  },
+  {
+    "UserId": 3,
+    "Id": 5,
+    "Title": "REST APIs",
+    "Body": "Building APIs with Go is fast and efficient."
+  },
+  {
+    "UserId": 3,
+    "Id": 6,
+    "Title": "Structs in Go",
+    "Body": "Structs are used to group related data."
+  },
+  {
+    "UserId": 4,
+    "Id": 7,
+    "Title": "Interfaces",
+    "Body": "Interfaces define behavior in Go."
+  },
+  {
+    "UserId": 4,
+    "Id": 8,
+    "Title": "Error Handling",
+    "Body": "Errors are values in Go."
+  },
+  {
+    "UserId": 5,
+    "Id": 9,
+    "Title": "Testing",
+    "Body": "Go has a built-in testing package."
+  },
+  {
+    "UserId": 5,
+    "Id": 10,
+    "Title": "Deployment",
+    "Body": "Go binaries are easy to deploy."
+  }
+]
